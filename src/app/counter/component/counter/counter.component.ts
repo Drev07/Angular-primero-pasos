@@ -24,7 +24,6 @@ export class CounterComponent {
 
   resetBtr(value: number): void {
     this.counter = value;
-    console.log(this.counter);
 
   }
 

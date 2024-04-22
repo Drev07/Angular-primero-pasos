@@ -1,0 +1,21 @@
+<h1>Hola mundo</h1>
+
+<hr>
+
+<div class="row">
+
+  <div class="col">
+<!-- los parentecis son para los eventos -->
+    <list-dbz
+     [characterList]="characters"
+     (onDelete)="onDelteCharacter($event)"
+     > </list-dbz>
+
+
+  </div>
+
+  <div class="col">
+    <dbz-add-character (onNewCharacter)="onNewCagracter($event)"></dbz-add-character>
+
+  </div>
+</div>

@@ -12,6 +12,5 @@ export class ListComponent {
 
   removeLastHero(): void{
    this.deleteHero = this.heroName.pop();
-   console.log(this.deleteHero);
   }
 }
